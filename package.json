@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/robPTY/namaste/issues"
   },
-  "homepage": "https://github.com/robPTY/namaste#readme"
+  "homepage": "https://github.com/robPTY/namaste#readme",
+  "dependencies": {
+    "mongoose": "^7.3.0"
+  }
 }

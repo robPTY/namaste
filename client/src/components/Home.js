@@ -1,13 +1,13 @@
 // Home.js
 import React from 'react';
+import '../App.css';
 import { Link } from 'react-router-dom';
 
 function Home() {
     return (
         <div>
-            <header>
-                {/* Include your logo and navigation menu */}
-                <h1>Namaste</h1>
+            <header id="main_header">
+                <h1>NAMAST3</h1>
                 <nav>
                     <ul>
                         <li><Link to="/guided-meditation">Guided Meditation</Link></li>
@@ -19,13 +19,11 @@ function Home() {
             </header>
 
             <section>
-                {/* Add your hero section with a compelling headline and call-to-action */}
                 <h2>Welcome to Namaste</h2>
                 <p>Discover a calmer, more centered you with our guided meditation sessions and mindfulness exercises.</p>
                 <Link to="/signup">Join Now</Link>
             </section>
 
-            {/* Add other sections like featured guided meditations, mindfulness exercises, testimonials, etc. */}
         </div>
     );
 }

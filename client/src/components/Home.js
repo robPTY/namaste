@@ -1,12 +1,13 @@
 // Home.js
 import React from 'react';
+import '../App.css';
 import { Link } from 'react-router-dom';
 
 function Home() {
     return (
         <div>
-            <header>
-                <h1>Namaste</h1>
+            <header id="main_header">
+                <h1>NAMAST3</h1>
                 <nav>
                     <ul>
                         <li><Link to="/guided-meditation">Guided Meditation</Link></li>

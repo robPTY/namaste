@@ -1,0 +1,13 @@
+#main_header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#main_header ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+}

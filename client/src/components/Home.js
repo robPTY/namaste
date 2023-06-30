@@ -7,7 +7,7 @@ function Home() {
     return (
         <div>
             <header id="main_header">
-                <h1 id="main-logo-header">namaste.</h1>
+                <Link to="/"><h1 id="main-logo-header">namaste.</h1></Link>
                 <nav>
                     <ul>
                         <li><Link to="/guided-meditation">Meditation</Link></li>

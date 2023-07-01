@@ -14,6 +14,7 @@ function Home() {
                         <li><Link to="/mindfulness-exercises">Exercises</Link></li>
                         <li><Link to="/community">Community</Link></li>
                         <li><Link to="/profile">Profile</Link></li>
+                        <li><Link to="/login">Login/Signup</Link></li>
                     </ul>
                 </nav>
             </header>

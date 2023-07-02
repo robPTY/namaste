@@ -20,9 +20,14 @@ function Home() {
             </header>
 
             <section>
-                <h2>Welcome to Namaste</h2>
-                <p>Discover a calmer, more centered you with our guided meditation sessions and mindfulness exercises.</p>
-                <Link to="/signup">Join Now</Link>
+                <div>
+                    <h2>Welcome to Namaste</h2>
+                    <p>Discover a calmer, more centered you with our guided meditation sessions and mindfulness exercises.</p>
+                    <Link to="/signup">Join Now</Link>
+                </div>
+            </section>
+            <section>
+
             </section>
         </div>
     );

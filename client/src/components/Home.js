@@ -5,30 +5,55 @@ import { Link } from 'react-router-dom';
 
 function Home() {
     return (
-        <div>
-            <header id="main_header">
-                <Link to="/"><h1 id="main-logo-header">namaste.</h1></Link>
-                <nav>
-                    <ul>
-                        <li><Link to="/guided-meditation">Meditation</Link></li>
-                        <li><Link to="/mindfulness-exercises">Exercises</Link></li>
-                        <li><Link to="/community">Community</Link></li>
-                        <li><Link to="/profile">Profile</Link></li>
-                        <li><Link to="/login">Login/Signup</Link></li>
-                    </ul>
-                </nav>
+        <div className="container">
+            <header>
+                <h1>Welcome to Our Website</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id libero in lorem facilisis pellentesque. Proin semper rutrum tellus eu consequat. Sed fermentum, dui eget tempor iaculis, nulla felis semper turpis, sit amet pharetra mauris felis sit amet enim.</p>
+                <a href="#about">Learn More</a>
             </header>
-
-            <section>
-                <div>
-                    <h2>Welcome to Namaste</h2>
-                    <p>Discover a calmer, more centered you with our guided meditation sessions and mindfulness exercises.</p>
-                    <Link to="/signup">Join Now</Link>
+            <section id="about">
+                <div className="about-content">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id libero in lorem facilisis pellentesque. Proin semper rutrum tellus eu consequat. Sed fermentum, dui eget tempor iaculis, nulla felis semper turpis, sit amet pharetra mauris felis sit amet enim.</p>
+                </div>
+                <div className="about-image">
+                    <img src="/path/to/image" alt="About" />
                 </div>
             </section>
-            <section>
-
+            <section id="features">
+                <h2>Key Features</h2>
+                <div className="feature-card">
+                    <img src="/path/to/feature-image" alt="Feature" />
+                    <h3>Feature 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div className="feature-card">
+                    <img src="/path/to/feature-image" alt="Feature" />
+                    <h3>Feature 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div className="feature-card">
+                    <img src="/path/to/feature-image" alt="Feature" />
+                    <h3>Feature 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
             </section>
+            <section id="testimonial">
+                <h2>Testimonials</h2>
+                <div className="testimonial-card">
+                    <img src="/path/to/user-image" alt="User" />
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id libero in lorem facilisis pellentesque. Proin semper rutrum tellus eu consequat."</p>
+                    <h4>- John Doe</h4>
+                </div>
+                <div className="testimonial-card">
+                    <img src="/path/to/user-image" alt="User" />
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id libero in lorem facilisis pellentesque. Proin semper rutrum tellus eu consequat."</p>
+                    <h4>- Jane Smith</h4>
+                </div>
+            </section>
+            <footer>
+                <p>&copy; 2023 Your Website. All rights reserved.</p>
+            </footer>
         </div>
     );
 }

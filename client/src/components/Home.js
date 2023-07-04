@@ -7,9 +7,9 @@ function Home() {
     return (
         <div className="home-container">
             <div className="hero-section">
-                <h1>Welcome to My Website!</h1>
-                <p>This is the homepage of my website.</p>
-                <Link to="/about" className="btn">Learn More</Link>
+                <h1>Welcome to namaste.</h1>
+                <p>Where tranquility meets with productivity.</p>
+                <Link to="/Login" className="btn">Login/Signup</Link>
             </div>
             <section className="features-section">
                 <div className="feature">
@@ -42,7 +42,7 @@ function Home() {
                 </div>
             </section>
             <footer className="footer">
-                <p>&copy; {new Date().getFullYear()} My Website. All rights reserved.</p>
+                <p>&copy; {new Date().getFullYear()} namaste. All rights reserved.</p>
             </footer>
         </div>
     );

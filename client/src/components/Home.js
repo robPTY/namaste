@@ -6,10 +6,14 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
         <div className="home-container">
+            <div className="buttons-top-page">
+                <Link to="/Profile" className="btn">Profile</Link>
+                <Link to="/Profile" className="btn">Login/Signup</Link>
+            </div>
             <div className="hero-section">
                 <h1>Welcome to namaste.</h1>
                 <p>Where tranquility meets with productivity.</p>
-                <Link to="/Login" className="btn">Login/Signup</Link>
+                <Link to="/Login" className="btn">About Section </Link>
             </div>
             <section className="features-section">
                 <div className="feature">

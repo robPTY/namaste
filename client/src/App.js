@@ -16,7 +16,7 @@ function App() {
         <Route path="/guided-meditation" component={GuidedMeditation} />
         <Route path="/mindfulness-exercises" component={MindfulnessExercises} />
         <Route path="/community" component={Community} />
-        <Route path="/profile" component={Profile} />
+        <Route path="/Profile" component={Profile} />
         <Route component={NotFound} />
       </Switch>
     </Router>

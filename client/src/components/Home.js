@@ -2,8 +2,10 @@
 import React from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
+import imageUrl from '../img/monk-logo.png';
 
 function Home() {
+    const imageSize = 250;
     return (
         <div className="home-container">
             <div className="buttons-top-page">
@@ -13,6 +15,7 @@ function Home() {
             <div className="hero-section">
                 <h1>Welcome to namaste.</h1>
                 <p>Where tranquility meets with productivity.</p>
+                <img src={imageUrl} width={imageSize} height={imageSize} alt="Monk Logo" /><br></br>
                 <Link to="/About" className="btn">About Section </Link>
             </div>
             <section className="features-section">

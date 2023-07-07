@@ -17,6 +17,10 @@ function Home() {
                 <p>Where tranquility meets with productivity.</p>
                 <img src={imageUrl} width={imageSize} height={imageSize} alt="Monk Logo" /><br></br>
                 <Link to="/About" className="btn">About Section </Link>
+                <p>Here, all your worries will disasppear. Namaste is a beautifully designed app that invites you on a transformative journey where worries vanish.
+                    With its intuitive interface, Namaste allows you to effortlessly track your meditation sessions, providing valuable insights and progress reports.
+                    Immerse yourself in a vast library of guided meditations and mindfulness practices, empowering you to learn and grow on your path to inner peace.
+                </p>
             </div>
             <section className="features-section">
                 <div className="feature">

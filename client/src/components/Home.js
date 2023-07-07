@@ -21,8 +21,8 @@ function Home() {
             <section className="features-section">
                 <div className="feature">
                     <img src="feature1.png" alt="Feature 1" />
-                    <h2>Feature 1</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h2>Meditation Tracking System</h2>
+                    <p>Track your progress towards ultimate tranquility.</p>
                 </div>
                 <div className="feature">
                     <img src="feature2.png" alt="Feature 2" />

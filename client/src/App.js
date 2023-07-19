@@ -6,6 +6,7 @@ import GuidedMeditation from './components/GuidedMeditation';
 import MindfulnessExercises from './components/MindfulnessExercises';
 import Community from './components/Community';
 import Profile from './components/Profile';
+import Login from './components/Login'
 import NotFound from './components/NotFound';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/mindfulness-exercises" component={MindfulnessExercises} />
         <Route path="/community" component={Community} />
         <Route path="/Profile" component={Profile} />
+        <Route path="/Login" component={Login} />
         <Route component={NotFound} />
       </Switch>
     </Router>
